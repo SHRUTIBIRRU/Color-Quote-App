@@ -2,7 +2,6 @@
   "name": "color-quote",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8001/",
   "dependencies": {
     "@shopify/polaris": "^9.2.4-rc.2",
     "@testing-library/jest-dom": "^5.16.2",
