@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Lato:ital,wght@0,900;1,900&family=Montserrat:wght@200&family=Poppins:wght@200;300&display=swap');
+
+::-webkit-scrollbar {  
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;   
+} 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px; 
+}
+.App {
+  margin-left: 1rem;
+  scrollbar-width: thin;
+  /* margin-bottom: 2vh; */
+}
+.textfield{
+ width: 20vw;
+ margin-top: 1rem;
+ padding-bottom: 1rem;
+}
+.image-div {
+  width: 1000px;
+  height: 500px;
+  border:1px solid black;
+  vertical-align:middle;
+  text-align:center;
+  display:table-cell;
+  background-color: black;
+  font-size: 8rem;
+  line-height: 150px;
+  font-weight: bolder; 
+  font-style: italic;
+}
+.button {
+  background-color: #11548b;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.colorPicker{
+ margin-top: 0.8vh; 
+}
