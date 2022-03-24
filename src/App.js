@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   const [colorInHex, setColorInHex] = useState(
-    `#${convert.hsl.hex(
+    `#${convert.hsv.hex(
       textColor.hue,
       textColor.saturation * 100,
       textColor.brightness * 100
@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     setColorInHex(
-      `#${convert.hsl.hex(
+      `#${convert.hsv.hex(
         textColor.hue,
         textColor.saturation * 100,
         textColor.brightness * 100
